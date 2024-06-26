@@ -112,7 +112,7 @@ in {
         import <nix/fetchurl.nix> {
           name = filename;
           # observed url when it tries to download on its own
-          url = "https://cdn-lfs-us-1.huggingface.co/repos/b2/a8/b2a84b9a6ef705fba73e7ccec6a9728b3427d8b4c7f536eae186110f0cbd700f/64ae214ae4e27424b644c49464c0aa243016f6f753d95097c8eb9ad0b9cb2d9b?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27${filename}%3B+filename%3D%22${filename}%22%3B&Expires=1719406653&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxOTQwNjY1M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2IyL2E4L2IyYTg0YjlhNmVmNzA1ZmJhNzNlN2NjZWM2YTk3MjhiMzQyN2Q4YjRjN2Y1MzZlYWUxODYxMTBmMGNiZDcwMGYvNjRhZTIxNGFlNGUyNzQyNGI2NDRjNDk0NjRjMGFhMjQzMDE2ZjZmNzUzZDk1MDk3YzhlYjlhZDBiOWNiMmQ5Yj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=XDSvjG3AZZEL66gSsa4R5uE9bWFOA-wbiqkG7eX3t57nrZjdMmhVBjZxuXrB5TV-jjP0ZX52fDUlfIqbPjmsknxQql3aqFftJOhvbu7D467ng6HDw54yuVlIZ7ZQ7Z5kOuyAt3WSNyRQdgPVFQtb7~nvZmAbUheHdZWysg9ArCgYCRyKTPlR2hwyns9xTPlXkihkEcFK1vuVOENWXmOok~0-Ri6lgTiqBDA8OCoRasgSoxBHyApHi8CWfoJRj-MpmqBDC48lsM8xDU3perWtZ6LPfmrPmJz-KnOqZ~Ou~tFdfGOLyf66hBKN0~JH08L7Fr6c6A1Bty9mtZUQ4iuN9Q__&Key-Pair-Id=K2FPYV99P2N66Q";
+          url = "https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints/depth_anything_vitb14.pth";
           sha256 = "sha256-ZK4hSuTidCS2RMSUZMCqJDAW9vdT2VCXyOua0LnLLZs=";
         };
       depth_anything_vitb14 = depth_anything "depth_anything_vitb14.pth";
